@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/YulongsunSimple.iml" filepath="$PROJECT_DIR$/YulongsunSimple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yulongsunlib/yulongsunlib.iml" filepath="$PROJECT_DIR$/yulongsunlib/yulongsunlib.iml" />
+    </modules>
+  </component>
+</project>
