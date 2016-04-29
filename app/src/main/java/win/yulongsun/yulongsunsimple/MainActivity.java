@@ -1,15 +1,15 @@
 package win.yulongsun.yulongsunsimple;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import rx.Scheduler;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action0;
 import rx.functions.Action1;
 import rx.functions.Func1;
 import rx.schedulers.Schedulers;
+import win.yulongsun.yulongsunlib.utils.ViewUtils;
 import win.yulongsun.yulongsunsimple.bean.NewsList;
 import win.yulongsun.yulongsunsimple.net.manager.RetrofitManager;
 
@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         RetrofitManager.builder()
                 .getLatestNews()
